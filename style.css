@@ -82,7 +82,7 @@
             .list h3{
               top: 5px !important;
               left: 0px !important;
-              font-size: 15px !important;
+              font-size: 14px !important;
               font-weight: 700 !important;
               
               
@@ -308,7 +308,7 @@ button a{
 
 .content-contato{
   max-width: 750px;
-  margin: 0 10px;
+  margin: 0 auto;
 
   text-align: center;
   line-height: 30px;
