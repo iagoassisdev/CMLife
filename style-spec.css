@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: 'Source Sans pro', sans-serif;
+  }
+  
+  .max-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    
+  
+  }
+  
+  /*FIM UNIVERSAIS*/
+
+  @media (max-width:428px)
+          {
+            /*  CABECALHO */
+            .section-cabecalho{
+              flex-direction: column;
+            }
+
+            .links-cabecalho{
+              border-top: 1px solid gray;
+              padding: 10px;
+            }
+
+            /**/
+
+            .content-footer{
+                text-align: center;
+              }
+
+            .container-table-img img{
+                display: none;
+
+            }
+
+            table{
+                width: 100% !important;
+            }
+
+            #fisio{
+                padding-bottom: 100px !important;
+            }
+
+            #geri{
+                padding-bottom: 16px !important;
+            }
+
+            #pedi{
+                padding-bottom: 1px !important;
+            }
+
+            p{
+                font-size: 16px;
+            }
+
+            h1{
+                font-size: 30px !important;
+                text-transform: uppercase !important;
+            }
+        }
+        
+        
+
+/**/
+
+/*  HEADER  */
+
+#cabecalho{
+    background-color: rgb(0, 202, 209);
+    
+  }
+  
+  .section-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 0 10px
+  }
+  
+  .link-logo{
+    width: 150px;
+    height: 70px;
+    box-sizing: border-box;
+  }
+  
+  .link-logo img{
+    padding-top: 2px;
+    width: 140px;
+    
+  }
+  
+  .cabecalho-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px 15px;
+  
+    list-style: none;
+  }
+  
+  .cabecalho-items a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+  }
+  
+  .cabecalho-items a:hover {
+    color: #004b4c;
+  }
+  
+  /**/
+
+  /*    TOPO    */
+
+  nav{
+    padding: 20px;
+  }
+
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;  
+  }
+
+  main ul a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 3px solid #00CAD1;
+
+  }
+
+  h1{
+    color: gray;
+    text-align: center;
+    font-size: 28px;
+
+
+    padding: 10px;
+    margin-bottom: 20px;
+    
+  }
+  /**/
+
+  /*   ORTOPEDIA   */
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 30px auto;
+  }
+
+  .textos{
+    text-align: center;
+    color: gray;
+    max-width: 550px;
+
+    margin: 0 auto;
+  }
+
+  .textos h3{
+    font-size: 23px;
+    padding-bottom: 15px;
+
+  }
+
+  .textos p{
+    padding: 0 5px 20px 5px;
+  }
+
+  .container-table-img{
+    display: flex;
+    height: 240px;
+    width: 100%;
+    padding: 0 20px;
+    
+  }
+
+  .container-table-img img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  table{
+    border-spacing: 0;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+  }
+
+  tr th{
+    background-color:#00CAD1;
+    color: #fff;
+    
+    font-size: 18px;
+  }
+
+  tbody tr{
+    background-color: #f1f1f1;
+  color: #585757;
+  font-weight: 500;
+  }
+
+  tbody tr:nth-of-type(2n+1){
+    background-color: #cdcdcd;
+    border: 1px solid #f1f1f1;
+  }
+
+  td, th{
+    padding: 10px;
+  }
+
+  .content:last-child{
+    margin-bottom: 40px;
+  }
+
+  /*    INICIO FOOTER   */
+
+#footer{
+    background-color: #004b4c;
+    padding: 10px;
+  }
+  
+  .content-footer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    max-width: 800px;
+    padding-bottom: 20px;
+  
+    line-height: 30px;
+    color: #fff;
+  }
+  
